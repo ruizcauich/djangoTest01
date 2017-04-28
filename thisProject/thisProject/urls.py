@@ -19,7 +19,7 @@ from django.contrib import admin
 
 urlpatterns = [
     #crear una nueva entrada incluyendo el archiov urls de la app
-    url(r'^$', include('djangoTestApp.urls')),
+    #url(r'^$', include('djangoTestApp.urls')),
     url(r'^djangoTestApp/', include('djangoTestApp.urls')),
     url(r'^admin/', admin.site.urls)
 ]
